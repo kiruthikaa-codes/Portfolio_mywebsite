@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>hobbies</title><style>
+body
+{
+top:0;
+margin:0;
+background-color:#39413c;
+
+}
+h1{
+top:10px;
+color:white;
+font-family:sans-serif;
+text-shadow: 0 6px 7px #579d8c;
+letter-spacing:8px;
+margin:20px;
+}
+#div1
+{
+width:100%;
+margin-top:0;
+height:100px;
+background-color:black;
+position:fixed;
+}
+#profile-container {
+            position: fixed;
+            top: 10px;
+            right: 20px;
+        }
+
+        #profile-picture {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+			border:3px solid #68a982;
+            overflow: hidden;
+        }
+
+        #profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+		.gallery {
+ margin:20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .image-container {
+          
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+						background-color:black;
+
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+			background-color:black;
+            transition: transform 0.3s ease-in-out;
+			 cursor: url('bat.jpeg'), auto;
+        }
+
+        .image-container:hover img {
+            transform: rotate(5deg) scale(1.1);
+        }
+		.image-description {
+    text-align: center;
+    color: black;
+	font-size:20px;
+}
+#profile-picture:hover {
+            transform: scale(2); 
+        }
+</style>
+</head>
+<body>
+<div id="div1">
+<h1>HOBBIES</h1>
+<div id="profile-container">
+<a href="C:\Users\Kiruthika Murugesan\Desktop\CSE_lang\HTML\portfolio\portfolio.html">
+         <div id="profile-picture">
+            <img src="sdp.jpg" alt="kiruthika"></img>
+        </div>
+		</a>
+    </div>
+</div>
+<br><br><br><br><br><br><br>
+<div class="gallery">
+        <div class="image-container">
+            <img src="photo.jpg" alt="Image 1">
+			<p class="image-description">Photography</p>
+        </div>
+        <div class="image-container">
+            <img src="gardening.jpg" alt="Image 2">
+			<p class="image-description">Gardening</p>
+        </div>
+		
+       <div class="image-container">
+            <img src="painting.jpg" alt="Image 2">
+        <p class="image-description">Painting</p>
+		</div>
+		<div class="image-container">
+            <img src="https://media.istockphoto.com/id/692475676/vector/sticker-shuttlecock-for-badminton-from-bird-feathers.jpg?s=612x612&w=0&k=20&c=LPDBQngDOXqVvcpgUrn3iWbU0ZNreRHT-Z5YIdp8zcQ=" alt="Image 2">
+        <p class="image-description">Badminton</p>
+		</div>
+		<div class="image-container">
+            <img src="write.jpg" alt="Image 2">
+        <p class="image-description">Writing</p>
+		</div>
+		
+    </div>
+		
+</body>
+</html>
